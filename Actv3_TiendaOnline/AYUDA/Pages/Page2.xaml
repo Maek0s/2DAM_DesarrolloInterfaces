@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AYUDA.Pages.Page2"
+             Title="Producto"
+             BackgroundColor="LightBlue">
+    <VerticalStackLayout>
+        <Label 
+            Text="Aquí puedes comprar nuestros productos"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <HorizontalStackLayout
+            HorizontalOptions="Center">
+            <Image  Source="fresa.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+            <Image  Source="frambuesa.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+            <Image  Source="albaricoque.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+            <Image  Source="manzana.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+        </HorizontalStackLayout>
+
+        <Picker x:Name="pFruta"
+                 Title="Elige su fruta:"
+                 SelectedIndexChanged="pFruta_SelectedIndexChanged"
+                 HorizontalOptions="Center"
+                 WidthRequest="400">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Fresa</x:String>
+                    <x:String>Frambuesa</x:String>
+                    <x:String>Albaricoque</x:String>
+                    <x:String>Manzana</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Margin="0,20,0,0">
+            <Button x:Name="btnAnterior"
+                    Text="◀ Anterior"
+                    Clicked="btnAnterior_Clicked"
+                    HorizontalOptions="Center"
+                    Margin="0,0,10,0"
+                    />
+            <Button x:Name="btnSiguiente"
+                    Text="Siguiente ▶"
+                    Clicked="btnSiguiente_Clicked"
+                    HorizontalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <Label 
+            Text="¡Elige una fruta antes!"
+            FontSize="20"
+            x:Name="lWarning"
+            IsVisible="False"
+            TextColor="Red"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

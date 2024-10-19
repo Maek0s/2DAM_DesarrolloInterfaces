@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AYUDA.Pages.Page3"
+             Title="Unidades"
+             BackgroundColor="YellowGreen">
+    <VerticalStackLayout>
+        <Label 
+            Text="Elige tu cantidad"
+            FontSize="25"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Sube con + y Disminuye con -"
+            FontSize="15"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Margin="0,50,0,0"
+            >
+
+            <Button x:Name="btnMinus"
+                    Clicked="btnMinus_Clicked"
+                    Text="-"
+                    FontSize="20"
+                    HeightRequest="25"
+                    Margin="0,0,10,0"/>
+            <Label
+                Text="1 "
+                x:Name="lNum"
+                FontSize="25"
+                HeightRequest="30"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center"
+                />
+            <Button x:Name="btnPlus"
+                Clicked="btnPlus_Clicked"
+                Text="+"
+                FontSize="20"
+                HeightRequest="25"
+                Margin="10,0,0,0"/>
+        </HorizontalStackLayout>
+        
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Margin="0,100,0,0">
+            <Button x:Name="btnAnterior"
+                Text="◀ Anterior"
+                Clicked="btnAnterior_Clicked"
+                HorizontalOptions="Center"
+                Margin="0,0,10,0"
+                />
+            <Button x:Name="btnSiguiente"
+                Text="Siguiente ▶"
+                Clicked="btnSiguiente_Clicked"
+                HorizontalOptions="Center"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
