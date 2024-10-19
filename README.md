@@ -24,3 +24,14 @@ Una interfaz simple con posibilidad de introducción de datos y marcar casillas 
 ### Preview
 
 ![4gtif](https://github.com/user-attachments/assets/1aeee2b4-fb9b-4869-9a1e-ec221504c055)
+
+## (03) Interfaz - Tienda online
+**Ver la actividad: [Enlace](https://github.com/Maek0s/DesarrolloInterfaces/tree/main/)**
+
+### Funcionamiento
+
+Interfaz con conexión con parte lógica para guardar una compra y utilizar un sistema de navegación entre páginas.
+
+### Preview
+
+![pagina5](https://github.com/user-attachments/assets/25f5daeb-de5c-498c-8b8f-d3973a3dc402)
