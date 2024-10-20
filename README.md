@@ -26,7 +26,7 @@ Una interfaz simple con posibilidad de introducción de datos y marcar casillas 
 ![4gtif](https://github.com/user-attachments/assets/1aeee2b4-fb9b-4869-9a1e-ec221504c055)
 
 ## (03) Interfaz - Tienda online
-**Ver la actividad: [Enlace](https://github.com/Maek0s/DesarrolloInterfaces/tree/main/)**
+**Ver la actividad: [Enlace](https://github.com/Maek0s/DesarrolloInterfaces/tree/main/Actv3_TiendaOnline)**
 
 ### Funcionamiento
 
