@@ -35,3 +35,14 @@ Interfaz con conexión con parte lógica para guardar una compra y utilizar un s
 ### Preview
 
 ![pagina5](https://github.com/user-attachments/assets/25f5daeb-de5c-498c-8b8f-d3973a3dc402)
+
+## (03) Interfaz - Datos matrícula
+**Ver la actividad: 
+
+### Funcionamiento
+
+Interfaz con conexión con 2 páginas para mandar datos y recibirlos mediante el Shell.
+
+### Preview
+
+![MainPagePrecioCalculadoTarjeta](https://github.com/user-attachments/assets/92ff0710-6fc0-467f-965b-083e0255a862)
