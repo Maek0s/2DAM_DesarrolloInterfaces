@@ -37,7 +37,7 @@ Interfaz con conexión con parte lógica para guardar una compra y utilizar un s
 ![pagina5](https://github.com/user-attachments/assets/25f5daeb-de5c-498c-8b8f-d3973a3dc402)
 
 ## (04) Interfaz - Datos matrícula
-**Ver la actividad: 
+**Ver la actividad: [Enlace](https://github.com/Maek0s/DesarrolloInterfaces/tree/main/Actv4_DatosMatricula)**
 
 ### Funcionamiento
 
@@ -45,4 +45,5 @@ Interfaz con conexión con 2 páginas para mandar datos y recibirlos mediante el
 
 ### Preview
 
+<b>[Enlace a vídeo con el funcionamiento](https://youtu.be/tNoHSAn_xAg)</b> <br> <br>
 ![MainPagePrecioCalculadoTarjeta](https://github.com/user-attachments/assets/92ff0710-6fc0-467f-965b-083e0255a862)
