@@ -1,2 +1,0 @@
-se pasa la info sin guardarse y luego en la ultima pagina se llama en el propio constructor
-haciendo un label
