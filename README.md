@@ -36,7 +36,7 @@ Interfaz con conexión con parte lógica para guardar una compra y utilizar un s
 
 ![pagina5](https://github.com/user-attachments/assets/25f5daeb-de5c-498c-8b8f-d3973a3dc402)
 
-## (03) Interfaz - Datos matrícula
+## (04) Interfaz - Datos matrícula
 **Ver la actividad: 
 
 ### Funcionamiento
