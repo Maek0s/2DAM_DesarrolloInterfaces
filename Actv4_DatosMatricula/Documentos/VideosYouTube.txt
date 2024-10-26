@@ -1,0 +1,5 @@
+He hecho unos vídeos en YT de su funcionamiento y explicación, al final el código enviado es sobre la actividad hecha con Shell, pero aun así subí la explicación de ViewModel ya que la tenía hecha en su momento.
+
+Vídeo funcionamiento: https://youtu.be/tNoHSAn_xAg
+Video explicativo de código con Shell: https://youtu.be/TFRePPaexlQ
+Video explicativo de código con ViewModel: https://youtu.be/QvT91ewzqdg
