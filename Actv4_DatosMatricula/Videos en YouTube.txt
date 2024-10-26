@@ -1,0 +1,3 @@
+Vídeo funcionamiento: https://youtu.be/tNoHSAn_xAg
+Video explicativo de código con Shell: https://youtu.be/TFRePPaexlQ
+Video explicativo de código con ViewModel: https://youtu.be/QvT91ewzqdg

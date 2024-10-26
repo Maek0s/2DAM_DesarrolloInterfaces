@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UD2Ejer5MarcosZahonero.MainPage"
+             Title="Datos de matrícula">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,20"
+        Spacing="30" 
+        BackgroundColor="#f4f4f9">
+            <!-- Spacing: Para separar cada elemento -->
+
+            <!-- Título -->
+            <Label Text="Selecciona Curso y forma pago:"
+                   FontSize="Large"
+                   HorizontalOptions="Center"
+                   TextColor="#333"
+                   FontAttributes="Bold"/>
+            
+            <!-- Curso -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                <Frame BackgroundColor="White" CornerRadius="10" WidthRequest="350">
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label Text="Curso:" FontSize="Medium" FontAttributes="Bold" TextColor="#333" Margin="0,0,5,0"/>
+                        <Label Text="{Binding NombreCurso}" x:Name="lblCurso" FontSize="Medium" TextColor="#3b82f6"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Button Text="Seleccionar curso"
+                    WidthRequest="220"
+                    HeightRequest="60"
+                    x:Name="btnCurso"
+                    Clicked="btnCurso_Clicked"
+                    BackgroundColor="#3b82f6"
+                    TextColor="White"
+                    CornerRadius="20"
+                    FontAttributes="Bold"/>
+            </HorizontalStackLayout>
+
+            <!-- Forma de Pago -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                <Frame BackgroundColor="White" CornerRadius="10" WidthRequest="350">
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label Text="Forma de pago:" FontSize="Medium" FontAttributes="Bold" TextColor="#333" Margin="0,0,5,0"/>
+                        <Label Text="{Binding FormaPago}" x:Name="lblPago" FontSize="Medium" TextColor="#3b82f6"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Button Text="Seleccionar forma de pago"
+                    WidthRequest="220"
+                    HeightRequest="60"
+                    x:Name="btnPago"
+                    Clicked="btnPago_Clicked"
+                    BackgroundColor="#3b82f6"
+                    TextColor="White"
+                    CornerRadius="20"
+                    FontAttributes="Bold"/>
+            </HorizontalStackLayout>
+
+            <!-- Precio inicial -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                <Frame BackgroundColor="White" CornerRadius="10" WidthRequest="350">
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label Text="Precio inicial:" FontSize="Medium" FontAttributes="Bold" TextColor="#333" Margin="0,0,5,0"/>
+                        <Label Text="{Binding Precio}" x:Name="lblPrecio" FontSize="Medium" TextColor="#3b82f6"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Button Text="Calcular precio"
+                    x:Name="btnCalcularPrecio"
+                    WidthRequest="220"
+                    HeightRequest="60"
+                    Clicked="btnCalcularPrecio_Clicked"
+                    BackgroundColor="#10b981"
+                    TextColor="White"
+                    CornerRadius="20"
+                    FontAttributes="Bold"
+                    IsEnabled="{Binding activateButton}"/>
+            </HorizontalStackLayout>
+
+            <!-- Precio final -->
+            <Frame BackgroundColor="White" CornerRadius="10" x:Name="framePrecioFinal" IsVisible="false" WidthRequest="600">
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label Text="Precio final: " x:Name="lblTxtPrecioFinal" FontSize="Large" FontAttributes="Bold" TextColor="#333" Margin="0,0,5,0"/>
+                    <Label Text="{Binding PrecioFinal}" x:Name="lblPrecioFinal" FontSize="Large" FontAttributes="Bold" TextColor="#ef4444"/>
+                </HorizontalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

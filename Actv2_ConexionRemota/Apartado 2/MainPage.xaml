@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridActv2.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image
+            Grid.Row="1"
+            Grid.ColumnSpan="3" 
+            Source="tierra.png"
+            HeightRequest="150"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+        <Label Text="Conexión remota"
+               Grid.Row="2"
+               Grid.ColumnSpan="3"
+               VerticalOptions="Start"
+               HorizontalOptions="Center"
+               FontSize="32"
+               HeightRequest="50"/>
+
+        <Label Text="Usuario"
+               Grid.Row="3"
+               Grid.ColumnSpan="3"
+               HeightRequest="20"
+               FontSize="16"/>
+        <Entry x:Name="User"
+               Grid.Row="4"
+               Grid.ColumnSpan="3"
+               Placeholder="Introduce usuario"
+               MaxLength="20"/>
+        <Label Text="Contraseña"
+               Grid.Row="5"
+               Grid.ColumnSpan="3"
+               HeightRequest="20"
+               FontSize="16"/>
+        <Entry x:Name="Password"
+               Grid.Row="6"
+               Grid.ColumnSpan="3"
+               IsPassword="True"
+               Placeholder="••••"
+               MaxLength="20"/>
+
+
+        <Label Text="¿Guardar contraseña?"
+               Grid.Row="7"
+               Grid.ColumnSpan="3"
+               HeightRequest="20"
+               WidthRequest="180"
+               HorizontalOptions="Start"
+               FontSize="16"/>
+        <CheckBox IsChecked="True" Grid.Row="7" Grid.Column="0" HeightRequest="20" WidthRequest="50" Margin="30"/>
+
+        <Label Text="Elige servidor:" 
+               Grid.Row="8"
+               HeightRequest="20" 
+               Grid.ColumnSpan="3"/>
+
+        <RadioButton Content="Madrid" Grid.Row="9" Grid.Column="0" HorizontalOptions="End"/>
+        <RadioButton Content="Barcelona" Grid.Row="9" Grid.Column="1" HorizontalOptions="Center"/>
+        <RadioButton Content="Valencia" Grid.Row="9" Grid.Column="2"/>
+
+        <Button Text="Acceder" Grid.Row="10" Grid.ColumnSpan="3" WidthRequest="100" HeightRequest="50"/>
+    </Grid>
+
+</ContentPage>

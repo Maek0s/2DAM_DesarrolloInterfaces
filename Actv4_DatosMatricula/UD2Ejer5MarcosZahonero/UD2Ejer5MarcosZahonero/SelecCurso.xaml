@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UD2Ejer5MarcosZahonero.SelecCurso"
+             Title="Curso">
+    <VerticalStackLayout BackgroundColor="#f4f4f9">
+
+        <!-- Título -->
+        <Label Text="Selecciona tu curso:"
+           FontSize="Large"
+           HorizontalOptions="Center"
+           TextColor="#333"
+           FontAttributes="Bold"
+           Margin="0,0,0,40"/>
+
+        <!-- Opciones de Curso -->
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <!-- Jardinería -->
+            <Frame BackgroundColor="White" CornerRadius="15">
+                <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <ImageButton Source="jardineria.png"
+                             WidthRequest="150"
+                             HeightRequest="150"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked"/>
+                    <Label Text="Jardinería"
+                           FontSize="Medium"
+                           TextColor="#28C301"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Informática -->
+            <Frame BackgroundColor="White" CornerRadius="15" Margin="30,0,0,0">
+                <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <ImageButton Source="informatica.png"
+                                 WidthRequest="150"
+                                 HeightRequest="150"
+                                 CornerRadius="10"
+                                 Clicked="ImageButton_Clicked_1"/>
+                    <Label Text="Informática"
+                           FontSize="Medium"
+                           TextColor="#3b82f6"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

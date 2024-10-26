@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UD2Ejer5MarcosZahonero.SelecPago"
+             Title="SelecPago">
+    <VerticalStackLayout BackgroundColor="#f4f4f9">
+
+        <!-- Título -->
+        <Label Text="Selecciona tu forma de pago:"
+           FontSize="Large"
+           HorizontalOptions="Center"
+           TextColor="#333"
+           FontAttributes="Bold"
+           Margin="0,0,0,40"/>
+
+        <!-- Opciones de Pago -->
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <!-- Pago en Efectivo -->
+            <Frame BackgroundColor="White" CornerRadius="15" Margin="0,0,30,0">
+                <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <ImageButton Source="efectivo.png"
+                                 WidthRequest="150"
+                                 HeightRequest="150"
+                                 CornerRadius="10"
+                                 Clicked="ImageButton_Clicked"/>
+                    <Label Text="Efectivo"
+                           FontSize="Medium"
+                           TextColor="#2ED303"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Pago con Tarjeta -->
+            <Frame BackgroundColor="White" CornerRadius="15"> <!--- CornerRadius para el redondeado -->
+                <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <ImageButton Source="tarjeta.png"
+                                 WidthRequest="150"
+                                 HeightRequest="150"
+                                 CornerRadius="10"
+                                 Clicked="ImageButton_Clicked_1"/>
+                    <Label Text="Tarjeta"
+                           FontSize="Medium"
+                           TextColor="#3b82f6"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+
+
+</ContentPage>
