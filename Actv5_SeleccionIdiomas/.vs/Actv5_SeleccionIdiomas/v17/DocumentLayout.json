@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maek0s\\source\\repos\\DesarrolloInterfaces\\Actv5_SeleccionIdiomas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7289-8638-4504-89BD-6C7D195C246F}|Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas.csproj|c:\\users\\maek0s\\source\\repos\\desarrollointerfaces\\actv5_seleccionidiomas\\actv5_seleccionidiomas\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E6C7289-8638-4504-89BD-6C7D195C246F}|Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas.csproj|solutionrelative:actv5_seleccionidiomas\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7289-8638-4504-89BD-6C7D195C246F}|Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas.csproj|c:\\users\\maek0s\\source\\repos\\desarrollointerfaces\\actv5_seleccionidiomas\\actv5_seleccionidiomas\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7289-8638-4504-89BD-6C7D195C246F}|Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas.csproj|solutionrelative:actv5_seleccionidiomas\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maek0s\\source\\repos\\DesarrolloInterfaces\\Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Actv5_SeleccionIdiomas\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Maek0s\\source\\repos\\DesarrolloInterfaces\\Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas\\MainPage.xaml.cs",
+              "RelativeToolTip": "Actv5_SeleccionIdiomas\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:59:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Maek0s\\source\\repos\\DesarrolloInterfaces\\Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Actv5_SeleccionIdiomas\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Maek0s\\source\\repos\\DesarrolloInterfaces\\Actv5_SeleccionIdiomas\\Actv5_SeleccionIdiomas\\MainPage.xaml",
+              "RelativeToolTip": "Actv5_SeleccionIdiomas\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T16:56:23.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
