@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Actv5SeleccionIdioma.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            HorizontalOptions="Center">
+
+            <Label Text="Nivel de idiomas"
+                   FontSize="Header"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="B: bajo, M: medio, A: alto"
+                   FontSize="Small"
+                   HorizontalOptions="Center"/>
+
+            <Grid Margin="0,20,0,30" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Nivel valenciano -->
+
+                <Label Text="Nivel de valenciano [B,M,A]"
+                       Grid.Column="0"
+                       Grid.Row="0"
+                       VerticalOptions="Center"
+                       WidthRequest="180"/>
+
+                <Entry x:Name="entryValenc"
+                       Grid.Column="1"
+                       Grid.Row="0"
+                       WidthRequest="10"
+                       Text="{Binding nivelValenciano, Mode=TwoWay}">
+
+                    <Entry.Triggers>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelValenciano}"
+                                     Value="A">
+                            <Setter Property="BackgroundColor"
+                                    Value="Green"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelValenciano}"
+                                     Value="M">
+                            <Setter Property="BackgroundColor"
+                                    Value="Orange"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelValenciano}"
+                                     Value="B">
+                            <Setter Property="BackgroundColor"
+                                    Value="Red"/>
+                            <Setter Property="TextColor"
+                                    Value="White"/>
+                        </DataTrigger>
+                    </Entry.Triggers>
+                </Entry>
+
+                <Button Text="Insertar"
+                        x:Name="btnInsertValenc"
+                        Clicked="btnInsertValenc_Clicked"
+                        BackgroundColor="#266F9C"
+                        TextColor="White"
+                        Grid.Column="3"
+                        Grid.Row="0"/>
+
+                <!-- Nivel ingles -->
+
+                <Label Text="Nivel de inglés [B,M,A]"
+                       Grid.Column="0"
+                       Grid.Row="1"
+                       VerticalOptions="Center"
+                       WidthRequest="180"/>
+
+                <Entry x:Name="entryIngles"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        WidthRequest="10"
+                        Text="{Binding nivelIngles, Mode=TwoWay}">
+                    <Entry.Triggers>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelIngles}"
+                                     Value="A">
+                            <Setter Property="BackgroundColor"
+                                    Value="Green"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelIngles}"
+                                     Value="M">
+                            <Setter Property="BackgroundColor"
+                                    Value="Orange"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelIngles}"
+                                     Value="B">
+                            <Setter Property="BackgroundColor"
+                                    Value="Red"/>
+                            <Setter Property="TextColor"
+                                    Value="White"/>
+                        </DataTrigger>
+                    </Entry.Triggers>
+                </Entry>
+
+                <Button Text="Insertar"
+                        x:Name="btnInsertIngles"
+                        Clicked="btnInsertIngles_Clicked"
+                        BackgroundColor="#266F9C"
+                        TextColor="White"
+                        Grid.Column="3"
+                        Grid.Row="1"/>
+
+                <!-- Nivel Frances -->
+
+                <Label Text="Nivel de francés [B,M,A]"
+                       Grid.Column="0"
+                       Grid.Row="2"
+                       VerticalOptions="Center"
+                       WidthRequest="180"/>
+
+                <Entry x:Name="entryFrances"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       WidthRequest="10"
+                       Text="{Binding nivelFrances, Mode=TwoWay}">
+
+                    <Entry.Triggers>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelFrances}"
+                                     Value="A">
+                            <Setter Property="BackgroundColor"
+                                    Value="Green"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelFrances}"
+                                     Value="M">
+                            <Setter Property="BackgroundColor"
+                                    Value="Orange"/>
+                            <Setter Property="TextColor"
+                                    Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Entry"
+                                     Binding="{Binding nivelFrances}"
+                                     Value="B">
+                            <Setter Property="BackgroundColor"
+                                    Value="Red"/>
+                            <Setter Property="TextColor"
+                                    Value="White"/>
+                        </DataTrigger>
+                    </Entry.Triggers>
+                </Entry>
+
+                <Button Text="Insertar"
+                        x:Name="btnInsertFrances"
+                        Clicked="btnInsertFrances_Clicked"
+                        BackgroundColor="#266F9C"
+                        TextColor="White"
+                        Grid.Column="3"
+                        Grid.Row="2"/>
+            </Grid>
+
+            <Button Text="Comprobar"
+                    x:Name="btnCheck"
+                    BackgroundColor="#1FB002"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    Clicked="btnCheck_Clicked"
+                    WidthRequest="110"/>
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                Spacing="20"
+                Padding="0,30,0,40">
+
+                <Button Text="Avanzado 1"
+                        x:Name="btnAdvancedOne">
+
+                    <Button.Triggers>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="1">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="2">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="3">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+                    </Button.Triggers>
+
+                </Button>
+                <Button Text="Avanzado 2"
+                        x:Name="btnAdvancedTwo">
+                    
+                    <Button.Triggers>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="2">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="3">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+                <Button Text="Avanzado 3"
+                        x:Name="btnAdvancedThree">
+
+                    <Button.Triggers>
+                        <DataTrigger TargetType="Button"
+                                     Binding="{Binding contador}"
+                                     Value="3">
+                            <Setter Property="IsEnabled"
+                                    Value="True"/>
+                        </DataTrigger>
+
+                    </Button.Triggers>
+                </Button>
+
+            </HorizontalStackLayout>
+
+            <Label Text="Idiomas a nivel avanzado = "
+                   x:Name="lblConteoAvanzado"
+                   HorizontalOptions="Center"
+                   IsVisible="False"
+                   Margin="0,0,0,40"/>
+
+            <Button Text="Ver créditos"
+                    x:Name="btnCredits"
+                    Clicked="btnCredits_Clicked"
+                    WidthRequest="120"
+                    BackgroundColor="#2563EB"
+                    TextColor="White"
+                    CornerRadius="10"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
