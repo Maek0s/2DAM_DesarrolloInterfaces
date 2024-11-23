@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLite03.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Start">
+
+            <Grid RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label FontSize="Large"
+                       Text="Añadir empleados"
+                       FontAttributes="Bold"
+                       Margin="0,10,0,10"
+                       Grid.Column="0"
+                       Grid.Row="0"/>
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="0,-10,0,0"
+                    WidthRequest="350"
+                    HeightRequest="50"
+                    Grid.ColumnSpan="1"
+                    Grid.Row="1">
+
+                    <Label Text="Nombre: "
+                           Margin="0,10,10,0"/>
+                    <Entry HeightRequest="40"
+                           x:Name="eNombre"
+                           WidthRequest="90"
+                           VerticalOptions="Start"/>
+
+                    <Label Text="Apellido: "
+                           Margin="20,10,10,0"/>
+                    <Entry HeightRequest="40"
+                           x:Name="eApellido"
+                           WidthRequest="100"
+                           VerticalOptions="Start"/>
+                </HorizontalStackLayout>
+
+                <VerticalStackLayout
+                    Grid.Column="0"
+                    Grid.Row="2">
+
+                    <Button Text="Registrar usuario"
+                            x:Name="btnRegistrarUser"
+                            Clicked="btnRegistrarUser_Clicked"
+                            BackgroundColor="LimeGreen"/>
+                </VerticalStackLayout>
+
+                <Label FontSize="Large"
+                       Text="Empleado seleccionado"
+                       FontAttributes="Bold"
+                       HeightRequest="50"
+                       Grid.Column="0"
+                       Margin="0,20,0,0"
+                       Grid.Row="3"/>
+
+                <HorizontalStackLayout
+                    Grid.Row="4">
+                    
+                    <Label FontSize="Medium"
+                           x:Name="lblNombre"
+                           Text="Nombre: "
+                           HeightRequest="50"
+                           Grid.Column="0"
+                           Grid.Row="4"/>
+
+                    <Label FontSize="Medium"
+                           x:Name="lblSeccNombre"
+                           Margin="10,0,0,0"
+                           Text="{Binding selected.Nombre} "
+                           HeightRequest="50"
+                           Grid.Column="0"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout
+                    Grid.Row="5">
+
+                    <Label FontSize="Medium"
+                           x:Name="lblApellido"
+                           Text="Apellido: "
+                           
+                           Grid.Column="0"/>
+
+                    <Label FontSize="Medium"
+                           x:Name="lblSeccApellido"
+                           Margin="10,0,0,0"
+                           Text="{Binding selected.Apellidos}"
+                           Grid.Column="0"/>
+                </HorizontalStackLayout>
+
+                <Button Text="Actualizar usuario"
+                        x:Name="btnUpdateUser"
+                        Clicked="btnUpdateUser_Clicked"
+                        BackgroundColor="Orange"
+                        TextColor="Black"
+                        Grid.Row="6"/>
+                <Button Text="Eliminar usuario"
+                        x:Name="btnDeleteUser"
+                        Clicked="btnDeleteUser_Clicked"
+                        BackgroundColor="IndianRed"
+                        TextColor="Black"
+                        Grid.Row="7"/>
+
+                <Label x:Name="lblErrores"
+                       Text=""
+                       FontSize="Medium"
+                       IsVisible="true"
+                       FontAttributes="Bold"
+                       TextColor="Red"
+                       HorizontalOptions="Center"
+                       Margin="40,10,0,0"
+                       Grid.Column="2"
+                       Grid.RowSpan="7"/>
+
+                <VerticalStackLayout
+                        WidthRequest="300"
+                        HorizontalOptions="End"
+                        VerticalOptions="Start"
+                        BackgroundColor="Yellow"
+                        Margin="0,50,0,0"
+                        Grid.Column="2"
+                        Grid.RowSpan="8">
+
+                    <Label Text="Base de datos"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+
+                    <ScrollView>
+                        <CollectionView ItemsSource="{Binding OcTrabajadores}"
+                                        SelectionMode="Single"
+                                        x:Name="collectionDatabase"
+                                        HeightRequest="350"
+                                        SelectedItem="{Binding selected}">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout Orientation="Horizontal"
+                                                     Padding="10">
+                                        <!-- Muestra nombre -->
+                                        <Label Text="{Binding Nombre}"
+                                                   FontSize="Medium"
+                                                   VerticalOptions="Center"/>
+
+                                        <!-- Muestra apellidos  -->
+                                        <Label Text="{Binding Apellidos}"
+                                                   FontSize="Medium"
+                                                   VerticalOptions="Center"
+                                                   Margin="10,0,0,0" />
+
+                                    </StackLayout>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
