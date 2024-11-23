@@ -61,3 +61,15 @@ Interfaz simple utilizando Triggers y ventanas emergentes.
 <b>[Enlace a vídeo con el código explicado](https://youtu.be/QAzTJHLHmXw) </b> <br> <br>
 ![image](https://github.com/user-attachments/assets/f0a680eb-b166-43e2-8836-1cb521d02e81)
 
+## (06) Interfaz - Gestión trabajadores
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv6_GestionTrabajadores)**
+
+### Funcionamiento
+
+Interfaz con conexión a base de datos, listas, SQLiteStudio y Binding.
+
+### Preview
+
+<b>[Enlace a vídeo con el funcionamiento](https://youtu.be/lTq8Z3srrXs)</b> <br>
+<b>[Enlace a vídeo con el código explicado](https://youtu.be/8uUpV4PZrbg) </b> <br> <br>
+![Pantalla inicial](https://github.com/user-attachments/assets/f0f6ade3-c7e6-443a-9494-72801ad05126)
