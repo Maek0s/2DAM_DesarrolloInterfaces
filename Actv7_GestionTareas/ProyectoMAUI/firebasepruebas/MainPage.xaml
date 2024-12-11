@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="firebasepruebas.MainPage">
+
+    <Grid Padding="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sección de registro de acciones -->
+
+        <ScrollView Grid.Column="2" HeightRequest="500" VerticalOptions="Center">
+            <VerticalStackLayout Margin="30,0,0,0">
+                <Label Text="Registro de Acciones"
+                       FontSize="Large" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"/>
+                <CollectionView ItemsSource="{Binding Logs}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Descripcion}" FontSize="Medium">
+                                <Label.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Tipo}" Value="Añadir">
+                                        <Setter Property="TextColor" Value="Green" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Tipo}" Value="Actualizar">
+                                        <Setter Property="TextColor" Value="#2719E7" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Tipo}" Value="Eliminar">
+                                        <Setter Property="TextColor" Value="Red" />
+                                    </DataTrigger>
+                                </Label.Triggers>
+                            </Label>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Sección principal centrada -->
+        <ScrollView Grid.Column="1">
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+
+                <Entry x:Name="eNombre"
+                       WidthRequest="250"
+                       Placeholder="Introduce nombre de la tarea"
+                       BackgroundColor="#E9E4E4"/>
+
+                <HorizontalStackLayout
+                    Spacing="10"
+                    HorizontalOptions="Center">
+                    <Button
+                        x:Name="btnAdd"
+                        Text="Añadir"
+                        Clicked="btnAdd_Clicked"
+                        BackgroundColor="#42CD0A"
+                        HorizontalOptions="Fill" />
+                    <Button
+                        x:Name="btnUpdate"
+                        Text="Modificar"
+                        Clicked="btnUpdate_Clicked"
+                        BackgroundColor="#2719E7"
+                        HorizontalOptions="Fill" />
+                    <Button
+                        x:Name="btnRemove"
+                        Text="Eliminar"
+                        BackgroundColor="Red"
+                        Clicked="btnRemove_Clicked"
+                        HorizontalOptions="Fill" />
+                </HorizontalStackLayout>
+
+                <ScrollView HeightRequest="200"
+                            WidthRequest="300">
+                    <CollectionView
+                        ItemsSource="{Binding OcTareas}"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding Selected}">
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding NombreTarea}"
+                                           FontSize="Medium"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>
