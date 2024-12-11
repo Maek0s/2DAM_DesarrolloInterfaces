@@ -73,3 +73,17 @@ Interfaz con conexión a base de datos, listas, SQLiteStudio y Binding.
 <b>[Enlace a vídeo con el funcionamiento](https://youtu.be/lTq8Z3srrXs)</b> <br>
 <b>[Enlace a vídeo con el código explicado](https://youtu.be/8uUpV4PZrbg) </b> <br> <br>
 ![Pantalla inicial](https://github.com/user-attachments/assets/f0f6ade3-c7e6-443a-9494-72801ad05126)
+
+## (07) Interfaz - Gestión tareas
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv7_GestionTareas)**
+
+### Funcionamiento
+
+Interfaz con conexión a base de datos online (Firebase), listas, Binding y Triggers.
+
+### Preview
+
+<b>[Enlace a vídeo con el funcionamiento](https://youtu.be/aUg2jU0Fsz8)</b> <br>
+<b>[Enlace a vídeo con el código explicado](https://youtu.be/lePUUrrnidU) </b> <br> <br>
+![Pantalla inicial](https://github.com/user-attachments/assets/48060b6a-9cef-47a1-9f64-cd4d9dca710e)
+
