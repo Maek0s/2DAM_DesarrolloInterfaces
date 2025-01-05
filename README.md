@@ -4,7 +4,7 @@
 # Actividades
 
 ## (01) Primer actividad en MAUI 
-**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/miquintoproyecto)**
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv1_MiPrimerProyecto)**
 
 ### Funcionamiento
 
@@ -15,7 +15,7 @@ Una pantalla simple con nuestro nombre que al dar clic al botón contaba los cli
 ![image](https://github.com/user-attachments/assets/ec763d24-3368-45ff-827c-2d50e4870172)
 
 ## (02) Interfaz simple - Conexión remota
-**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv2ConexionRemota)**
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv2_ConexionRemota)**
 
 ### Funcionamiento
 
