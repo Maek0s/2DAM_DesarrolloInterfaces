@@ -1,5 +1,5 @@
 # Información repositorio
- Repositorio utilizado para Desarrollo de Interfaces.
+ Repositorio utilizado para Desarrollo de Interfaces de 2DAM.
 
 # Actividades
 
