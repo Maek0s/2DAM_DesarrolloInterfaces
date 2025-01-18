@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ud04ej01disenyoMVVM.ViewModels"
+             x:Class="ud04ej01disenyoMVVM.Views.AddItemNewWindow"
+             Title="AddItemNewWindow">
+
+    <ContentPage.BindingContext>
+        <vm:AddItemNewWindowViewModel/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout
+        Padding="15"
+        Spacing="10">
+        <Label 
+            Text="Nueva tarea"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry
+            Text="{Binding NombreTarea}"
+            Placeholder="Añade tarea"
+            x:Name="eNombreTarea"/>
+
+        <HorizontalStackLayout>
+            <CheckBox x:Name="checkCompleted" IsChecked="{Binding IsCompleted}"/>
+            <Label Text="Completada"
+                   VerticalTextAlignment="Center"/>
+        </HorizontalStackLayout>
+
+        <Button Text="Añadir" Command="{Binding addTareaCommand}"/>
+        <Button Text="Cancelar" Command="{Binding cancelarTareaCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

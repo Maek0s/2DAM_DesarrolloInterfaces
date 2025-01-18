@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\viewmodels\\additemnewwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\viewmodels\\additemnewwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\views\\additemnewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\views\\additemnewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\views\\additemnewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\views\\additemnewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|e:\\2dam\\desarrollo de interfaces\\actv9_dise\u00F1omvvm\\ud04ej01disenyomvvm\\ud04ej01disenyomvvm\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBCC531B-7DC2-4596-AB9B-6A3710E1558D}|ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM.csproj|solutionrelative:ud04ej01disenyomvvm\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:55:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddItemNewWindow.xaml.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml.cs",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T18:11:42.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddItemNewWindowViewModel.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\ViewModels\\AddItemNewWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\ViewModels\\AddItemNewWindowViewModel.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\ViewModels\\AddItemNewWindowViewModel.cs",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\ViewModels\\AddItemNewWindowViewModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:11:57.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\Models\\TodoItem.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Models\\TodoItem.cs",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:38:05.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddItemNewWindow.xaml",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\Views\\AddItemNewWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T18:11:17.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\Views\\MainPage.xaml.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:12:11.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\Views\\MainPage.xaml",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\Views\\MainPage.xaml",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T17:47:23.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ud04ej01disenyoMVVM\\AppShell.xaml",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv9_Dise\u00F1oMVVM\\ud04ej01disenyoMVVM\\ud04ej01disenyoMVVM\\AppShell.xaml",
+              "RelativeToolTip": "ud04ej01disenyoMVVM\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T18:11:11.306Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
