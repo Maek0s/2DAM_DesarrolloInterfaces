@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 
 namespace firebasepruebas
-    // errores en el reloadDatabase porq tiene problemas y el registroAcciones
-    // va horrible.
 {
     public partial class MainPage : ContentPage
     {
