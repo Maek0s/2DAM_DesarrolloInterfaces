@@ -3,7 +3,19 @@
 
 # Actividades
 
-## (09) Interfaz - Gestión tareas interactiva (En proceso)
+## (09) Interfaz - Gestión tareas interactiva
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv9_Dise%C3%B1oMVVM)**
+
+Interfaz con gestión de tareas con ICommand y ViewModels
+
+### Preview
+
+<b>[Enlace a vídeo con el funcionamiento](https://youtu.be/3EJgtiqHrho)</b> <br>
+<b>[Enlace a vídeo con el código explicado](https://youtu.be/7i_r2cY0NXw) </b> <br> <br>
+![image](https://github.com/user-attachments/assets/9d2fc648-5afb-4d74-9e77-31de13ae289f)
+
+## (08) Publicación de Apps para Windows y Android
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv8_PublicarAplicaciones)**
 
 ## (07) Interfaz - Gestión tareas
 **Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv7_GestionTareas)**
