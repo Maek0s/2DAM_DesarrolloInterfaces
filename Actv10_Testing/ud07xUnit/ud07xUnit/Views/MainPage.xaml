@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ud07xUnit.ViewModels"
+             x:Class="ud07xUnit.Views.MainPage">
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="30" Spacing="15">
+
+        <Label Text="Calculadora"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#333"/>
+
+        <Frame Padding="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+            <VerticalStackLayout Spacing="10">
+                <Entry Text="{Binding Num1}" 
+                       Placeholder="Número 1"
+                       Keyboard="Numeric"
+                       FontSize="18"
+                       BackgroundColor="#FFF"
+                       TextColor="#333"
+                       HeightRequest="50"
+                       Margin="5"/>
+
+                <Entry Text="{Binding Num2}" 
+                       Placeholder="Número 2"
+                       Keyboard="Numeric"
+                       FontSize="18"
+                       BackgroundColor="#FFF"
+                       TextColor="#333"
+                       HeightRequest="50"
+                       Margin="5"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <HorizontalStackLayout Spacing="15" HorizontalOptions="Center">
+            <Button Text="+" 
+                    Command="{Binding SumarCommand}" 
+                    FontSize="22"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    HeightRequest="50"
+                    WidthRequest="60"
+                    CornerRadius="10"/>
+
+            <Button Text="-" 
+                    Command="{Binding RestarCommand}" 
+                    FontSize="22"
+                    BackgroundColor="#FF3B30"
+                    TextColor="White"
+                    HeightRequest="50"
+                    WidthRequest="60"
+                    CornerRadius="10"/>
+
+            <Button Text="×" 
+                    Command="{Binding MultiplicarCommand}" 
+                    FontSize="22"
+                    BackgroundColor="#34C759"
+                    TextColor="White"
+                    HeightRequest="50"
+                    WidthRequest="60"
+                    CornerRadius="10"/>
+
+            <Button Text="÷" 
+                    Command="{Binding DividirCommand}" 
+                    FontSize="22"
+                    BackgroundColor="#FF9500"
+                    TextColor="White"
+                    HeightRequest="50"
+                    WidthRequest="60"
+                    CornerRadius="10"/>
+        </HorizontalStackLayout>
+
+        <Frame Padding="15"
+               CornerRadius="10"
+               BackgroundColor="White"
+               HasShadow="True"
+               Margin="10"
+               HorizontalOptions="Fill">
+            <Label x:Name="lblResult"
+                   Text="{Binding Result}"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#008000"
+                   HorizontalOptions="Center"/>
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>
