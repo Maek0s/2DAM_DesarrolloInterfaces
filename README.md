@@ -3,13 +3,37 @@
 
 # Actividades
 
+## (11) Interfaz - Gráficos
+**Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv11_Graficos)**
+
+### Funcionamiento
+
+Interfaz con gráficos utilizando Microcharts, ICommands y ViewModels.
+
+### Preview
+
+<b>[Enlace a vídeo con el funcionamiento](https://youtu.be/4EUrQeiLU3Q)</b> <br>
+<b>[Enlace a vídeo con el código explicado](https://youtu.be/ZLXQDnQ9LK4) </b> <br> <br>
+
+![image](https://github.com/user-attachments/assets/f7f5ac7d-7af5-48ce-a44c-8f27b18af39b)
+
 ## (10) Interfaz - Testing con Calculadora
 **Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv10_Testing)**
+
+### Funcionamiento
+
+Interfaz simple de calculadora para utilizar Testing.
+
+### Preview
+
+![image](https://github.com/user-attachments/assets/cec57af1-8f22-4053-b8a9-c4bc53675e73)
 
 ## (09) Interfaz - Gestión tareas interactiva
 **Ver la actividad: [Enlace](https://github.com/Maek0s/2DAM_DesarrolloInterfaces/tree/main/Actv9_Dise%C3%B1oMVVM)**
 
-Interfaz con gestión de tareas con ICommand y ViewModels
+### Funcionamiento
+
+Interfaz con gestión de tareas con ICommand y ViewModels.
 
 ### Preview
 
