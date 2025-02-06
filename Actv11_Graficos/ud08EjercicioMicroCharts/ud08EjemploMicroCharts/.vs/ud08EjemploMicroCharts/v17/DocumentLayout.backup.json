@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\models\\vendes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\models\\vendes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\viewmodels\\graficoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\viewmodels\\graficoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\graficopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\graficopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\graficopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\graficopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|e:\\2dam\\desarrollo de interfaces\\actv11_graficos\\ud08ejerciciomicrocharts\\ud08ejemplomicrocharts\\ud08ejemplomicrocharts\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085D03F-CF90-472B-A06A-DC98F2A949C9}|ud08EjemploMicroCharts\\ud08EjemploMicroCharts.csproj|solutionrelative:ud08ejemplomicrocharts\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GraficoPage.xaml",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\GraficoPage.xaml",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\GraficoPage.xaml",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\GraficoPage.xaml",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\GraficoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-06T00:39:30.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraficoViewModel.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\ViewModels\\GraficoViewModel.cs",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\ViewModels\\GraficoViewModel.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\ViewModels\\GraficoViewModel.cs",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\ViewModels\\GraficoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:39:38.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GraficoPage.xaml.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\GraficoPage.xaml.cs",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\GraficoPage.xaml.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\GraficoPage.xaml.cs",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\GraficoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:39:29.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vendes.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\Models\\Vendes.cs",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\Models\\Vendes.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\Models\\Vendes.cs",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\Models\\Vendes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:39:44.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\MainPage.xaml",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\MainPage.xaml",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-06T00:39:28.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:39:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ud08EjemploMicroCharts\\MainPage.xaml.cs",
+              "ToolTip": "E:\\2DAM\\Desarrollo de Interfaces\\Actv11_Graficos\\ud08EjercicioMicroCharts\\ud08EjemploMicroCharts\\ud08EjemploMicroCharts\\MainPage.xaml.cs",
+              "RelativeToolTip": "ud08EjemploMicroCharts\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:39:28.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

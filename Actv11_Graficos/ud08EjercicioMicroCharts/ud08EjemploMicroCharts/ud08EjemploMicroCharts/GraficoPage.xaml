@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="ud08EjemploMicroCharts.GraficoPage"
+             Title="GraficoPage">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label Text="Gráfico de Ventas Anuales"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="#333"
+               HorizontalOptions="Center" />
+
+        <Frame Padding="10"
+               BackgroundColor="White"
+               CornerRadius="10"
+               HasShadow="True"
+               BorderColor="#DDD">
+            <microcharts:ChartView x:Name="ChartView"
+                                   HeightRequest="300"
+                                   Chart="{Binding Chart}" />
+        </Frame>
+
+        <Button Text="Volver"
+                Clicked="Volver_Clicked"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="18"
+                CornerRadius="10"
+                HeightRequest="50"
+                HorizontalOptions="Fill" />
+
+    </VerticalStackLayout>
+</ContentPage>

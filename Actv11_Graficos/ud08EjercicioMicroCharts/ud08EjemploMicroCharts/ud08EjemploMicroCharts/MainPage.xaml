@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:micro="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="ud08EjemploMicroCharts.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <Label Text="Introduce las ventas anuales"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   HorizontalOptions="Center" />
+
+            <Frame Padding="20"
+                   BackgroundColor="White"
+                   CornerRadius="10"
+                   HasShadow="True"
+                   BorderColor="#DDD">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Frame Padding="5" BackgroundColor="#F0F0F0" CornerRadius="10">
+                        <Entry Placeholder="Ventas Castellón"
+                               Keyboard="Numeric"
+                               Text="{Binding Castello}"
+                               FontSize="18"
+                               HeightRequest="50"/>
+                    </Frame>
+
+                    <Frame Padding="5" BackgroundColor="#F0F0F0" CornerRadius="10">
+                        <Entry Placeholder="Ventas Valencia"
+                               Keyboard="Numeric"
+                               Text="{Binding Valencia}"
+                               FontSize="18"
+                               HeightRequest="50"/>
+                    </Frame>
+
+                    <Frame Padding="5" BackgroundColor="#F0F0F0" CornerRadius="10">
+                        <Entry Placeholder="Ventas Alicante"
+                               Keyboard="Numeric"
+                               Text="{Binding Alicante}"
+                               FontSize="18"
+                               HeightRequest="50"/>
+                    </Frame>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Generar gráfico"
+                    Command="{Binding GenerarGraficoCommand}"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
